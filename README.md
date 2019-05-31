@@ -1,21 +1,15 @@
 About this container
 ---
-[![Docker Build Status](https://img.shields.io/docker/build/cturra/ntp.svg)](https://hub.docker.com/r/cturra/ntp/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/cturra/ntp.svg)](https://hub.docker.com/r/cturra/ntp/)
-[![Apache licensed](https://img.shields.io/badge/license-Apache-blue.svg)](https://raw.githubusercontent.com/cturra/docker-ntp/master/LICENSE)
-
-This container runs [OpenNTPD](http://www.openntpd.org/index.html) on [Alpine Linux](https://alpinelinux.org/). More about NTP can be found at:
-
-  http://www.ntp.org
-
+This is a ntp server container which allows to be abused for DDoS attacks (CVE-2013-5211).
 
 Running from Docker Hub
 ---
 Pull and run -- it's this simple.
 
+
 ```
 # pull from docker hub
-$> docker pull cturra/ntp
+$> docker pull pauluzznl/ntp
 
 # run ntp
 $> docker run --name=ntp             \
@@ -25,7 +19,7 @@ $> docker run --name=ntp             \
               --cap-add=SYS_NICE     \
               --cap-add=SYS_RESOURCE \
               --cap-add=SYS_TIME     \
-              cturra/ntp
+              pauluzznl/ntp
 ```
 
 

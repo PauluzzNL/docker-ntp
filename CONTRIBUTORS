@@ -1,9 +1,12 @@
 The following awesome folks have contributed ideas,
 bug reports and code to this ntp docker project:
 
- - Chris Turra       => https://github.com/cturra
- - Nicolas Innocenti => https://github.com/nicoinn
- - Richard Coleman   => https://github.com/microbug
+This is a fork mainly of the work of Chris Turra. 
+
+ - Chris Turra        => https://github.com/cturra
+ - Nicolas Innocenti  => https://github.com/nicoinn
+ - Richard Coleman    => https://github.com/microbug
+ - Paul van der Knaap => https://github.com/PauluzzNL
 
 
 Thanks for your contributions!
