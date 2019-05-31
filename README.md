@@ -2,6 +2,8 @@ About this container
 ---
 This is a ntp server container which allows to be abused for DDoS attacks (CVE-2013-5211).
 
+You do NOT want to run this on a public server. This is an image for testing purposes ans contains the NTP DDoS vulnerability as described in CVE-2013-5211!
+
 Running from Docker Hub
 ---
 Pull and run -- it's this simple.
